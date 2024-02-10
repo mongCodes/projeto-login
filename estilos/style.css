@@ -1,2 +1,44 @@
 @charset "UTF-8";
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5f2c82;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+
+    height: 500px;
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    overflow: hidden;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section#login > div#foto {
+
+    background-image: url(../imagens/pattern.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
