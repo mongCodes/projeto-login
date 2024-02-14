@@ -12,6 +12,7 @@
 body {
     background-color: #5f2c82;
     color: rgb(0, 0, 0);
+    position: relative;
 }
 
 main {
@@ -20,12 +21,14 @@ main {
     width: 100vw;
 }
 
+
+
 section#login {
 
     height: 500px;
     width: 270px;
     background-color: rgb(255, 255, 255);
-    border-radius: 5%;
+    border-radius: 20px;
     overflow: hidden;
     
     position: absolute;
@@ -40,5 +43,29 @@ section#login > div#foto {
     background-image: url(../imagens/pattern.jpg);
     background-size: cover;
     height: 250px;
+}
+
+.meio {
+    margin: auto;
+    text-align: center;
+    margin-top: 7px;
+}
+
+input#enter {
+    background-color: rgba(2, 134, 143, 0.671);
+    color: whitesmoke;
+
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    margin-top: 3px;
+}
+
+input#esq {
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-top: 3px;
 }
 
