@@ -15,7 +15,7 @@ lilas #5f2c82
 */
 
 body {
-    background-color: #5f2c82;
+    background-color: #861d03;
     color: rgb(0, 0, 0);
     position: relative;
 }
@@ -49,6 +49,10 @@ section#login > div#foto {
     background-image: url(../imagens/pattern.jpg);
     background-size: cover;
     height: 250px;
+}
+
+p {
+    text-align: center;
 }
 
 .meio {
