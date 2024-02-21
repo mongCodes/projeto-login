@@ -60,3 +60,31 @@
     }
 
 }
+
+
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: linear-gradient(to bottom, #b42906d5, #020202bd);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 60vh;
+    }
+    .top {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    div#formu {
+        float: right;
+        width: 50%;
+        height: 100vh;
+        
+    }
+    section#login > div#foto {
+        float: left;
+        height: 100vh;
+        width: 50%;
+    }
+}
