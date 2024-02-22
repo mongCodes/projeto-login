@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/telas.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Projeto Login</title>
 </head>
 <body>
@@ -14,18 +15,22 @@
                 
             </div>
             <div id="formu">
-                <h1 class="meio">Login</h1>
-                <p  class="top">Seja bem vindo(a) novamente, faça login para poder navegar.</p>
+                <h1>Login</h1>
+                <p>Seja bem vindo(a) novamente, faça login para poder navegar.</p>
                 <form action="#" method="get" autocomplete="on">
+
                     <p class="meio">
-                        <label for="iemail">#</label>
+                        <span class="material-icons">person</span>
                         <input type="email" name="email" id="iemail">
+                        <label for="iemail"></label>
                     </p>
-                    <p class="meio">
-                        <label for="isenha">#</label>
-                        <input type="password" name="senha" id="isenha">
+                    <p class="meio" >
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" class="fundo">
+                        <label for="isenha"></label>
                     </p>
-                    <p class="meio">
+
+                    <p >
                         <input type="submit" value="Entrar" id="enter"><br>
                         <input type="submit" value="Esqueci senha" id="esq">
                     </p>

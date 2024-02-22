@@ -45,6 +45,11 @@ section#login {
     transition: width .3, height .3;
 }
 
+div#formu > h1 {
+    margin: auto;
+    text-align: center;
+}
+
 
 section#login > div#foto {
 
@@ -57,10 +62,26 @@ p {
     text-align: center;
 }
 
+p.meio > input {
+    width: 94%;
+    padding: 5px;
+}
+
 .meio {
     margin: auto;
     text-align: center;
     margin-top: 7px;
+
+    background-color: purple;
+    border-radius: 7px;
+    width: 90%;
+    padding: 3px;
+}
+
+
+
+span {
+    color: whitesmoke;
 }
 
 input#enter {
