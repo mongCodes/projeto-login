@@ -55,15 +55,16 @@ section#login > div#foto {
 
     background-image: url(../imagens/pattern.jpg);
     background-size: cover;
-    height: 250px;
+    height: 200px;
 }
 
 p {
     text-align: center;
+    text-size-adjust: 1.5em;
 }
 
 p.meio > input {
-    width: 94%;
+    width: 85%;
     padding: 5px;
 }
 
@@ -82,6 +83,14 @@ p.meio > input {
 
 span {
     color: whitesmoke;
+    float: left;
+    padding: 3px;
+}
+
+a > span {
+    color: black;
+    float: right;
+    box-sizing: border-box;
 }
 
 input#enter {
