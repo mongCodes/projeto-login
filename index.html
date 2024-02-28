@@ -16,26 +16,24 @@
             </div>
             <div id="formu">
                 <h1>Login</h1>
-                <p>Seja bem vindo(a) novamente, faça login para poder navegar.</p>
+                <p class="topo">Seja bem vindo(a) novamente, faça login para poder navegar.</p>
                 <form action="#" method="get" autocomplete="on">
 
                     <p class="meio">
-                        <span class="material-icons">person</span>
-                        <input type="email" name="email" id="iemail">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" required minlength="4" maxlength="20" placeholder="seu email">
                         <label for="iemail"></label>
                     </p>
                     <p class="meio" >
-                        <span class="material-icons">key</span>
-                        <input type="password" name="senha" id="isenha" class="fundo">
+                        <i class="material-icons">key</i>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder="sua senha">
                         <label for="isenha"></label>
                     </p>
 
-                    <p >
+                    <p>
                         <input type="submit" value="Entrar" id="enter">
-                        <p>
-                            <a href="esqueci.html">Esqueci a senha <span class="material-icons">mail</span>
-                            </a>
-                        </p>
+
+                        <p class="otario"><a href="esq.html">Esqueci a Senha <i class="material-icons">mail</i></a></p>
                     </p>
                 </form>
                 

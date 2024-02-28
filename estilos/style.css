@@ -58,6 +58,8 @@ section#login > div#foto {
     height: 200px;
 }
 
+p.topo { padding: 3px;}
+
 p {
     text-align: center;
     text-size-adjust: 1.5em;
@@ -71,7 +73,7 @@ p.meio > input {
 .meio {
     margin: auto;
     text-align: center;
-    margin-top: 7px;
+    margin-top: 3px;
 
     background-color: purple;
     border-radius: 7px;
@@ -79,35 +81,48 @@ p.meio > input {
     padding: 3px;
 }
 
+input#iemail { padding: 7px;}
+input#isenha { padding: 7px;}
 
 
-span {
+
+i {
     color: whitesmoke;
-    float: left;
     padding: 3px;
 }
 
-a > span {
-    color: black;
-    float: right;
-    box-sizing: border-box;
-}
+
 
 input#enter {
     background-color: rgba(2, 134, 143, 0.671);
     color: whitesmoke;
+    font-weight: bolder;
 
     border-radius: 5px;
     border: 0;
-    padding: 10px;
+    padding: 13px;
     width: 90%;
     margin-top: 3px;
+    margin-bottom: 3px;
 }
 
-input#esq {
-    border-radius: 5px;
-    padding: 10px;
+
+p.otario {
+    margin: auto;
+    text-align: center;
+    margin-top: 1px;
+
+    background-color: rgba(128, 128, 128, 0.678);
+    border-radius: 7px;
     width: 90%;
-    margin-top: 3px;
+    padding: 5px;
+    border: 2px solid rgba(122, 122, 122, 0.705);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a i { color: black;}

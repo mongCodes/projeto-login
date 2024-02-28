@@ -10,6 +10,7 @@
     section#login {
         width: 80vw;
     }
+
     
     section#login > div#foto {
         float: left;
@@ -20,6 +21,22 @@
     section#login > div#formu {
         float: right;
         width: 70%;
+    }
+
+    div#formu h1 {
+        
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    form {
+        margin-top: 100px;
+    }
+
+    p.topo {
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
     }
     
     .top {
@@ -55,6 +72,22 @@
         float: right;
         width: 50%;
         padding: 10px;
+    }
+
+    div#formu h1 {
+        
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    form {
+        margin-top: 100px;
+    }
+
+    p.topo {
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
     }
 
 }
