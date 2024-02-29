@@ -75,9 +75,13 @@
     }
 
     div#formu h1 {
-        
+        font-size: 1.7em;
         padding: 10px;
         margin-top: 20px;
+    }
+
+    div#formu p {
+        font-size: 1.1em;
     }
 
     form {

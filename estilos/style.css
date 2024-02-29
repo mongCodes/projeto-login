@@ -48,6 +48,7 @@ section#login {
 div#formu > h1 {
     margin: auto;
     text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.37);
 }
 
 
@@ -58,7 +59,10 @@ section#login > div#foto {
     height: 200px;
 }
 
-p.topo { padding: 3px;}
+p.topo { 
+    padding: 3px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
+}
 
 p {
     text-align: center;
@@ -81,8 +85,14 @@ p.meio > input {
     padding: 3px;
 }
 
-input#iemail { padding: 7px;}
-input#isenha { padding: 7px;}
+input#iemail {
+    padding: 7px;
+    border-radius: 5px;
+}
+input#isenha {
+    padding: 7px;
+    border-radius: 5px;
+}
 
 
 
@@ -96,6 +106,7 @@ i {
 input#enter {
     background-color: rgba(2, 134, 143, 0.671);
     color: whitesmoke;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.596);
     font-weight: bolder;
 
     border-radius: 5px;
