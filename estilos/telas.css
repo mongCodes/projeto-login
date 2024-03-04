@@ -7,8 +7,10 @@
         background-image: linear-gradient(to bottom, #b42906d5, #020202bd);
     }
 
+
     section#login {
         width: 80vw;
+        height: 380px;
     }
 
     
@@ -29,14 +31,12 @@
         margin-top: 20px;
     }
 
-    form {
-        margin-top: 100px;
-    }
 
     p.topo {
         width: 300px;
         margin: auto;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     .top {
@@ -55,10 +55,11 @@
 
     section#login {
         width: 950px;
+        height: 450px;
     }
 
     section#login div#foto {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -69,7 +70,7 @@
     }
 
     div#formu {
-        float: right;
+        float: left;
         width: 50%;
         padding: 10px;
     }
@@ -84,14 +85,11 @@
         font-size: 1.1em;
     }
 
-    form {
-        margin-top: 100px;
-    }
-
     p.topo {
         width: 300px;
         margin: auto;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
 }
