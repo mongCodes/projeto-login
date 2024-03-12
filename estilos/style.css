@@ -53,7 +53,6 @@ div#formu > h1 {
 
 
 section#login > div#foto {
-
     background-image: url(../imagens/pattern.jpg);
     background-size: cover;
     height: 200px;
@@ -71,8 +70,10 @@ p {
 }
 
 p.meio > input {
-    width: 85%;
-    padding: 5px;
+    height: 100%;
+    width: calc(100% - 50px);
+    transform: translateY(-4px);
+    border: 1px solid purple;
 }
 
 .meio {
@@ -83,7 +84,6 @@ p.meio > input {
     background-color: purple;
     border-radius: 7px;
     width: 90%;
-    padding: 3px;
 }
 
 input#iemail {
@@ -96,7 +96,9 @@ input#isenha {
 }
 
 p.meio > i {
-    font-size: 1.9em;
+    width: 40px;
+    font-size: 2em;
+    transform: translateY(+5px);
 }
 
 
